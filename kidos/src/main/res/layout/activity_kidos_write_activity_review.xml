@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context="com.example.kidos.KidosWriteActivityReview" >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    
+    <RatingBar
+        android:id="@+id/ratingBar_kidosactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+       />
+    
+	<TextView 
+	    android:id="@+id/txt_activity_ratetext"
+	    android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Rate the activity"
+	    android:textSize="17dp"
+	    android:textStyle="bold"
+	    android:layout_below="@+id/ratingBar_kidosactivity"
+	    />
+    
+    
+        <EditText
+        android:id="@+id/txt_kidosactivity_review"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/txt_activity_ratetext"
+        android:hint="Share your experiences...."
+        android:textAlignment="viewStart"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:focusable="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+		 >
+        
+        <Button
+            android:id="@+id/btn_submitreview"
+            android:background="#aa333333"
+            android:textColor="#FFFFFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSubmitButtonClick"
+            android:text="Submit Review"/>         
+    </LinearLayout>
+        
+</RelativeLayout>

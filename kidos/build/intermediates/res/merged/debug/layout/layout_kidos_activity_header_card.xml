@@ -1,0 +1,177 @@
+ <!--  cardlayout 1 for profile image, name and address  -->
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/card_activity_header"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp">
+	    
+	    <RelativeLayout
+	        android:id="@+id/layout_activity_profile"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			 <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_activityimgs"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+			 
+
+	        <Button
+		    android:id="@+id/btn_layout_activity_rating"
+		    android:layout_below="@+id/viewpager_activityimgs"
+		    android:layout_width="50dp"
+		    android:layout_height="25dp"
+		    android:layout_centerHorizontal="true"
+		    android:gravity="center|center_horizontal"
+		    android:layout_marginTop="-12dp"
+		    android:background="@drawable/ratingbutton"
+		    android:textColor="#FFFFFF"
+		    android:textSize="16dp"
+		    android:text="3.4"
+		    android:textStyle="bold" /> 
+
+	
+	       <TextView
+             android:id="@+id/txt_activity_name"
+             android:layout_below="@+id/btn_layout_activity_rating"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+		     android:layout_marginTop="5dp"
+             android:textColor="#000000"
+             android:textSize="20dp"
+             android:textStyle="bold"
+		 />
+	       
+	<LinearLayout 
+	       android:id="@+id/layout_activity_buttons"
+	       android:layout_below="@+id/txt_activity_name"
+	       android:layout_width="match_parent"
+	       android:layout_height="30dp"
+	       android:orientation="horizontal"
+	       android:layout_marginTop="10dp"
+	       android:layout_marginBottom="10dp"
+	       android:layout_marginLeft="5dp"
+	       android:layout_marginRight="5dp"
+	       >
+	      
+	      <Button
+			android:id="@+id/btn_contact"
+			android:text="Contact"
+			android:textColor="#8A8A8A"
+			android:textSize="12sp"
+			android:layout_width="80dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+	    	android:background="@drawable/roundrectbutton"
+	      />
+	      
+	      <Button
+			android:id="@+id/btn_photo"
+			android:text="Add Photo"
+			android:textColor="#8A8A8A"
+			android:textSize="12sp"
+			android:layout_width="80dp"
+			android:layout_marginLeft="2dp"
+	       	android:layout_marginRight="2dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+	    	android:background="@drawable/roundrectbutton"
+	      />
+	      
+	     <Button
+			android:id="@+id/btn_review"
+			android:text="Write Review"
+			android:textColor="#8A8A8A"
+			android:textSize="12sp"
+			android:layout_width="80dp"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_height="match_parent"
+			
+			android:layout_weight="1"
+	    	android:background="@drawable/roundrectbutton"
+	      />
+	    
+	       <!-- Button
+	           android:id="@+id/btn_activity_call"
+	           android:layout_height="wrap_content"
+	           android:layout_width="wrap_content"
+	           android:layout_weight="1"
+	    	   android:layout_marginRight="1dp"
+	    	   android:gravity="center_horizontal|center_vertical"
+	    	 	android:drawableTop="@drawable/ic_call"
+	           />
+	       <Button
+	           android:id="@+id/btn_activity_photos"
+	           android:drawableTop="@drawable/ic_photo"
+	           android:layout_height="match_parent"
+	           android:layout_width="wrap_content"
+	           android:layout_weight="1"
+	    	    android:text="Photos"
+	    	   android:textColor="#a9a9a9"
+	    	   android:textSize="12dp"
+	    	   android:layout_marginRight="1dp"
+	    	    android:gravity="center|center_horizontal"
+	    	   />
+	       <Button
+	           android:id="@+id/btn_activity_review"
+	           android:drawableTop="@drawable/ic_review"
+	           android:layout_height="match_parent"
+	           android:layout_width="wrap_content"
+	           android:layout_weight="1"
+	    	   android:layout_marginRight="1dp"
+	    	   android:text="Review"
+	    	   android:textColor="#a9a9a9"
+	    	   android:textSize="12dp"
+	    	    android:gravity="center|center_horizontal"
+	    	   />
+	        <Button
+	           android:id="@+id/btn_activity_locate"
+	           android:drawableTop="@drawable/ic_map"
+	           android:layout_height="match_parent"
+	           android:layout_width="wrap_content"
+	           android:layout_weight="1"
+	    	   android:layout_marginRight="1dp"
+	    	    android:text="Map"
+	    	   android:textColor="#a9a9a9"
+	    	   android:textSize="12dp"
+	    	   android:gravity="center|center_horizontal"
+	    	   /-->
+	        
+
+	       
+	  </LinearLayout>
+        
+
+
+   <!-- TextView
+        		  android:id="@+id/txt_activity_address"
+        		  android:layout_below="@+id/layout_activity_buttons"
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content"
+			      android:layout_marginTop="10dp"
+			      android:layout_marginLeft="10dp"
+			      android:layout_marginBottom="2dp"
+			      android:textColor="#040404"
+        		  android:textSize="13dp"
+        		  android:textStyle="normal" 
+        		  /-->
+
+
+	       	    	<ImageView
+				       android:id="@+id/img_share_activity"
+				       android:layout_width="wrap_content"
+				       android:layout_height="wrap_content"
+				       android:layout_alignParentRight="true"
+				       android:layout_alignParentTop="true"
+				       android:layout_marginRight="14dp"
+				       android:layout_marginTop="6dp"
+				       android:src="@drawable/ic_action_share" 
+				       />
+
+          
+      </RelativeLayout>
+    </android.support.v7.widget.CardView>
+     

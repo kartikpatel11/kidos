@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_network_unavailable.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_network_unavailable.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_login.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_login.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_review_detail.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_review_detail.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_find_location.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_find_location.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_category_page.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_category_page.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_write_activity_review.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_write_activity_review.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_details.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_details.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_splash.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_splash.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_full_screen_photo_view.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_full_screen_photo_view.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_add_activity_photo.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_add_activity_photo.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_map.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_map.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_main.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_main.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_contact.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_contact.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/menu/kidos_activity_photos_grid_view.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/menu/kidos_activity_photos_grid_view.xml"
+    }
+]

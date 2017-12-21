@@ -1,0 +1,93 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable name="registrationdetails" type="com.example.kidos.beans.KidosRegistrationBean"/>
+    </data>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="com.example.kidos.KidosRegistration"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/layout_registration"
+        >
+
+
+        <EditText
+            android:id="@+id/txt_first_name"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={registrationdetails.firstname}"
+            android:singleLine="true"
+            android:hint="First Name" />
+
+
+        <EditText
+            android:id="@+id/txt_last_name"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={registrationdetails.lastname}"
+            android:singleLine="true"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/txt_phno"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@={registrationdetails.mobile}"
+            android:hint="Mobile Number"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/txt_emailid"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@={registrationdetails.emailid}"
+            android:hint="Email ID" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@={registrationdetails.password}"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txt_retypepass"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Re-Type Password"
+            android:inputType="textPassword" />
+
+        <Button android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:text="Register"
+            android:background="@color/red"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/white"
+            android:onClick="Register"/>
+
+
+
+    </LinearLayout>
+</layout>

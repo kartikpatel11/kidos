@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    tools:context="com.example.kidos.KidosContact"
+>
+
+<TextView 
+	    android:id="@+id/txt_contact_phone_numbers"
+	    android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+	    android:text="Phone Numbers"
+	    android:textSize="17dp"
+	    android:textStyle="bold"
+	    
+	/>
+
+
+<TextView 
+	    android:id="@+id/txt_contact_facebook"
+	    android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+	    android:text="Facebook"
+	    android:textSize="17dp"
+	    android:textStyle="bold"
+	    android:layout_below="@+id/txt_contact_phone_numbers"
+	/>
+
+<TextView 
+	    android:id="@+id/txt_contact_twitter"
+	    android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+	    android:text="Twitter"
+	    android:textSize="17dp"
+	    android:textStyle="bold"
+	    android:layout_below="@+id/txt_contact_facebook"
+	/>
+
+
+<TextView 
+	    android:id="@+id/txt_contact_website"
+	    android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+	    android:text="Website"
+	    android:textSize="17dp"
+	    android:textStyle="bold"
+	   	android:layout_below="@+id/txt_contact_twitter"
+	/>
+
+</RelativeLayout>	

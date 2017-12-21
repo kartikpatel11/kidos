@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#808080"
+	    	  >
+
+    
+    <ListView
+        android:id="@+id/lst_activitycontacts"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:dividerHeight="1dp"
+         />
+    <!-- android:listSelector="@drawable/list_selector" -->
+ 
+</LinearLayout>

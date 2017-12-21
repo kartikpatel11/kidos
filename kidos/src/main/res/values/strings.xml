@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kidos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kidos_main"></string>
+    <string name="title_activity_kidos_activity_map">KidosActivityMap</string>
+    <string name="title_activity_kidos_activity_photos_grid_view">KidosActivityPhotosGridView</string>
+    <string name="title_activity_kidos_activity_full_screen_photo_view">KidosActivityFullScreenPhotoView</string>
+    <string name="title_activity_kidos_write_activity_review">Write Review</string>
+    <string name="title_activity_kidos_splash">Kidos</string>
+    <string name="action_search">Search Activity</string>
+    <string name="txt_search_hint">Activity Name, Type... </string>
+    <string name="title_activity_kidos_activity_category_page">Kidos</string>
+    <string name="title_activity_kidos_find_location">Select Location</string>
+    <string name="title_activity_kidos_network_unavailable">KidosNetworkUnavailable</string>
+    <string name="txt_network_unavailable_error">Oops!! It seems internet is not available.. \nCheck connection and retry</string>
+    <string name="title_activity_kidos_login">Login</string>
+    <string name="facebook_app_id">216423725427268</string>
+    <string name="title_activity_kidos_activity_review_detail">Review Details</string>
+    <string name="title_activity_kidos_add_activity_photo">Add Photo</string>
+    <string name="menu_camera_label">Camera</string>
+    <string name="menu_gallery_label">Gallery</string>
+    <string name="title_activity_kidos_contact">KidosContact</string>
+    <string name="title_activity_kidos_registration">KidosRegistration</string>
+
+</resources>

@@ -1,0 +1,88 @@
+     <!-- cardview for schedule and criteria -->
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/card_schedule"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp">
+       
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      >
+
+	  <TextView
+        		  android:id="@+id/txt_activity_schedule_label"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_marginTop="10dp"
+			      android:layout_marginLeft="10dp"
+                  android:textColor="#8e8d8d"
+        		  android:textSize="15dp"
+        		  android:textStyle="bold"
+        		  android:text="Schedule"/>	     
+     
+      <TextView
+        		  android:id="@+id/txt_activity_schedule"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_alignLeft="@+id/txt_activity_schedule_label"
+			      android:layout_below="@+id/txt_activity_schedule_label"
+			      android:layout_marginTop="5dp"
+			      android:textColor="#040404"
+        		  android:textSize="13dp"
+        		  android:textStyle="normal" 
+        		  />
+     
+      <TextView
+        		  android:id="@+id/txt_activity_criteria_label"
+        		  android:layout_below="@+id/txt_activity_schedule"
+        		  android:layout_marginTop="0dp"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_alignLeft="@+id/txt_activity_schedule_label"
+			      android:textColor="#8e8d8d"
+        		  android:textSize="15dp"
+        		  android:textStyle="bold"
+        		  android:text="Criteria"/>	
+     
+      <TextView
+        		  android:id="@+id/txt_activity_criteria"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_below="@+id/txt_activity_criteria_label"
+			      android:layout_marginTop="5dp"
+			      android:layout_alignLeft="@+id/txt_activity_schedule_label"
+			      android:textColor="#040404"
+        		  android:textSize="13dp"
+        		  android:textStyle="normal" 
+        		  />
+
+		      <TextView
+        		  android:id="@+id/txt_activity_fees_label"
+        		  android:layout_below="@+id/txt_activity_criteria"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_alignLeft="@+id/txt_activity_schedule_label"
+			      android:textColor="#8e8d8d"
+			      android:layout_marginTop="10dp"
+        		  android:textSize="15dp"
+        		  android:textStyle="bold"
+        		  android:text="Fees"/>		      
+			      
+      <TextView 
+          		android:id="@+id/txt_activity_fees"
+          		android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_below="@+id/txt_activity_fees_label"
+			      android:layout_alignLeft="@+id/txt_activity_schedule_label"
+			      android:layout_marginTop="5dp"
+			      android:layout_marginBottom="10dp"
+			       android:textColor="#040404"
+	       		  android:textSize="13dp"
+	       		  android:textStyle="normal" 
+          />
+      
+     </RelativeLayout>
+    </android.support.v7.widget.CardView>
+     
+    

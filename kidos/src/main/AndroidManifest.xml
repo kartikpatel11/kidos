@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidos"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <permission
+        android:name="com.example.kidos.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.kidos.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".utils.KidosApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_klauncher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme">
+        <!--meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+         android:value="8298000" / -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".KidosActivityDetails"
+            android:label=""></activity>
+        <activity
+            android:name=".KidosMain"
+            android:label="@string/title_activity_kidos_main"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB1jmvonvtWtIh3kkljv3a4XHpC_vZDXu4" />
+
+        <activity
+            android:name=".KidosActivityMap"
+            android:label="@string/title_activity_kidos_activity_map"></activity>
+        <activity
+            android:name=".KidosActivityPhotosGridView"
+            android:label="@string/title_activity_kidos_activity_photos_grid_view"></activity>
+        <activity
+            android:name=".KidosActivityFullScreenPhotoView"
+            android:label="@string/title_activity_kidos_activity_full_screen_photo_view"></activity>
+        <activity
+            android:name=".KidosWriteActivityReview"
+            android:label="@string/title_activity_kidos_write_activity_review"></activity>
+        <activity
+            android:name=".KidosSplash"
+            android:label="@string/title_activity_kidos_splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KidosActivityCategoryPage"
+            android:label="@string/title_activity_kidos_activity_category_page"></activity>
+        <activity
+            android:name=".KidosFindLocation"
+            android:label="@string/title_activity_kidos_find_location"></activity>
+        <activity
+            android:name=".KidosNetworkUnavailable"
+            android:label="@string/title_activity_kidos_network_unavailable"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity
+            android:name=".KidosLoginActivity"
+            android:label="@string/title_activity_kidos_login"></activity>
+        <!--
+            activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="Login"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /
+        -->
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fb216423725427268" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KidosActivityReviewDetail"
+            android:label="@string/title_activity_kidos_activity_review_detail"></activity>
+        <activity
+            android:name=".KidosAddActivityPhoto"
+            android:label="@string/title_activity_kidos_add_activity_photo"></activity>
+        <activity
+            android:name=".KidosContact"
+            android:label="@string/title_activity_kidos_contact"></activity>
+        <activity
+            android:name=".KidosRegistration"
+            android:label="@string/title_activity_kidos_registration"></activity>
+    </application>
+
+</manifest>

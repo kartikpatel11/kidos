@@ -1,0 +1,40 @@
+	<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/card_imageliststrip"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    >
+
+	  <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      >  
+      
+	    <TextView
+     		android:id="@+id/txt_activity_images_label"
+      		android:layout_width="wrap_content"
+      		android:layout_height="wrap_content"
+      		android:layout_marginTop="10dp"
+      		android:layout_marginLeft="10dp"
+            android:textColor="#8e8d8d"
+     		android:textSize="15dp"
+     		android:textStyle="bold"
+     		android:text="Images"/>	  
+	      	    
+		<HorizontalScrollView 
+		android:id="@+id/horizontal_scroll"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/txt_activity_images_label"
+		android:layout_marginTop="5dp">
+		
+		    <LinearLayout
+		    android:id="@+id/img_activity_linear"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+		    </LinearLayout>
+		
+		</HorizontalScrollView>
+	</RelativeLayout>
+	</android.support.v7.widget.CardView>

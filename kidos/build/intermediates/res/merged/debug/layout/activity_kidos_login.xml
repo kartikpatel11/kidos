@@ -1,0 +1,97 @@
+	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".KidosLoginActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/txt_login_phno"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Mobile Number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <CheckBox
+        android:id="@+id/chk_keepsignedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Keep me Signed in" />
+
+
+    <Button android:id="@+id/btn_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:text="Login"
+        android:background="@color/red"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:onClick="Login"/>
+
+    <TextView
+        android:id="@+id/label_or"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="OR"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+         />
+
+    <TextView
+        android:id="@+id/label_forgotpass"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@color/red"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/label_register"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Not yet registered? Sign up now!!"
+        android:textColor="@color/red"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+
+
+ 
+</LinearLayout>

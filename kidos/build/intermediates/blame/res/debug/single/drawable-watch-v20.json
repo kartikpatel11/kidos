@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.4/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.4/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/11.0.4/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

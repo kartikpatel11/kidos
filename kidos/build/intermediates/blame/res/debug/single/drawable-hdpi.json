@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_basketball.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_basketball.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_criteria.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_criteria.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_search.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_search.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_locate.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_locate.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_search.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_calendar.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_calendar.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_cricket.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_cricket.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_photo.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_photo.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_map.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_map.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_record.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_record.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_tennis.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_tennis.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_call.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_call.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawingclass.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_drawingclass.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_ksplash.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_ksplash.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_klauncher.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_klauncher.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_tiles_small.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_tiles_small.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_share.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_swimming.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_swimming.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_review.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_review.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_getlocation.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_getlocation.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_chess.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_chess.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawing.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_drawing.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_kidos_bg.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_kidos_bg.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_direction.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_direction.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_football.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_football.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_splash.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_splash.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_dancing.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_dancing.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_star.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_star.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_sketting.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_sketting.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_location.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_location.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_camera.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_camera.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_yoga.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_yoga.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_arrow_right_bottom.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_action_arrow_right_bottom.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_phone.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_phone.png"
+    },
+    {
+        "merged": "/Users/Kartik/StudioProjects/Kidos/kidos/build/intermediates/res/merged/debug/drawable-hdpi/ic_contacts.png",
+        "source": "/Users/Kartik/StudioProjects/Kidos/kidos/src/main/res/drawable-hdpi/ic_contacts.png"
+    }
+]

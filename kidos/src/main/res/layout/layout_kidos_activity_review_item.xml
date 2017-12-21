@@ -1,0 +1,59 @@
+	  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+      > 
+ 
+		 <com.example.kidos.utils.KidosCircleImageView
+		    android:id="@+id/img_profile_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txt_activity_review_label"
+			android:layout_marginLeft="5dp"
+			android:src="@drawable/ic_launcher"
+			android:layout_marginTop="10dp"
+			app:civ_border_width="1dp"
+             />
+	    
+	   <TextView
+        android:id="@+id/txt_review_owner"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#a8a8a8"
+        android:layout_below="@+id/img_profile_pic"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/img_profile_pic"
+        
+        android:text="Kartik Patel" />
+	   
+	   <Button
+		    android:id="@+id/btn_review_activity_rating"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignTop="@+id/img_profile_pic"
+		    android:layout_marginTop="10dp"
+		    android:layout_width="50dp"
+		    android:layout_height="25dp"
+		    android:layout_centerHorizontal="true"
+		    android:gravity="center|center_horizontal"
+		    android:layout_marginRight="20dp"
+		    android:background="@drawable/ratingbutton"
+		    android:textColor="#FFFFFF"
+		    android:textSize="12dp"
+		    android:text="3.4"
+		    android:textStyle="bold" />
+	    
+	    <TextView
+        android:id="@+id/txt_review"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_below="@+id/txt_review_owner"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/img_profile_pic"
+        android:text="TextView" 
+        android:paddingBottom="5dp"/>
+	    
+	   </RelativeLayout>

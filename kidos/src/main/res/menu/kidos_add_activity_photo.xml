@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kidos.KidosAddActivityPhoto" >
+
+   <item
+	android:id="@+id/action_camera"
+	android:title="@string/menu_camera_label"
+	android:icon="@drawable/ic_action_camera"
+	android:showAsAction="ifRoom"
+	/>
+   
+   <item
+	android:id="@+id/action_gallery"
+	android:title="@string/menu_gallery_label"
+	android:icon="@drawable/ic_action_tiles_small"
+	android:showAsAction="ifRoom"
+	/>
+   
+</menu>

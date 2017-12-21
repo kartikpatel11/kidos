@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context="com.example.kidos.KidosWriteActivityReview" >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+     <ImageView
+        android:id="@+id/img_kidos_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:scaleType="fitXY"
+        /> 
+  
+      <EditText
+        android:id="@+id/txt_kidos_add_image_review"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Share your experience...."
+        android:textAlignment="viewStart"
+        android:background="@drawable/rounded_border_edittext"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        />
+  
+    <Button
+	  android:id="@+id/btn_addphoto"
+	  android:background="#aa333333"
+	  android:textColor="#FFFFFF"
+	  android:layout_width="match_parent"
+	  android:layout_height="0dp"
+	  android:layout_marginTop="20dp"
+	  android:layout_weight="1"
+	  android:onClick="onAddPhotoButtonClick"
+	  android:text="Add Photo"/>  
+  </LinearLayout>
+ </RelativeLayout>

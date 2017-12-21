@@ -1,0 +1,39 @@
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center">
+         
+       <ImageView
+              android:id="@+id/img_networkUnAvailable"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_centerVertical="true"
+              android:src="@drawable/ic_klauncher" />
+      
+          
+          <TextView android:id="@+id/txt_networkUnAvailable"
+              android:layout_below="@+id/img_networkUnAvailable"
+              android:text="@string/txt_network_unavailable_error"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:layout_margin="10dp"
+              android:layout_centerHorizontal="true"
+              />
+           
+          
+          
+          <Button android:id="@+id/btn_checknetworkstatus"
+              android:layout_below="@+id/txt_networkUnAvailable"
+              android:layout_marginTop="20dp"
+              android:text="Try Again"
+              android:textColor="#FFFFFF"
+              android:onClick="onTryAgainBtnClick"
+              android:background="@color/red"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:layout_centerHorizontal="true"
+              />
+
+         
+  </RelativeLayout>

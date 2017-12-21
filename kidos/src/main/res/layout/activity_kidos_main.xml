@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kidos.KidosMain" >
+
+    <TextView
+        android:id="@+id/txt_kidosmain_hidden_catid"
+        android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/kidosrecyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+         />
+
+</RelativeLayout>
